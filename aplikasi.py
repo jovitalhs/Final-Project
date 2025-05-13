@@ -10,7 +10,7 @@ from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 with open('best_fake_news_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
-with open('tfidf_vectorizer.pkl', 'rb') as f:
+with open('tfidf_vectorizer (2).pkl', 'rb') as f:
     vectorizer = pickle.load(f)
 
 # ——— HTML Header ———
