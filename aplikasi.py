@@ -6,7 +6,7 @@ import re
 import string
 from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 
-# ——— Load trained model & TF-IDF vectorizer ———
+# ——— Load model & TF-IDF vectorizer ———
 with open('best_fake_news_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
